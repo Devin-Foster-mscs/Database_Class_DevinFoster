@@ -1,0 +1,9 @@
+Guest(ID, FirstName, LastName, PhoneNumber, RoomNumber)
+
+Room(ID, SqFt, Beds, Tv, Bathrooms)
+
+Bills(ID, Guest_ID, Amount)
+
+Employee(ID, FirstName, LastName, Position)
+
+Services(ID, Heat, Cleaning, Cable, FoodService, Room_ID)

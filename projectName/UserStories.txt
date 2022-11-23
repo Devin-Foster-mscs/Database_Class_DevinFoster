@@ -1,0 +1,11 @@
+(As a <user type>, I want to <some goal> so that <some reason>)
+
+1) As a hotel manager I want to know guest information so I know who's renting my rooms. 
+
+2) As a hotel manager I want to know what a room comes with so I can keep inventory of everything incase of theft. 
+
+3) As a hotel manager I want to know how much charges the guest racks up so I can charge them fairly.
+
+4) As a hotel manager I want to know how many hours each employee works so I can pay them fair.
+
+5) As a hotel manager I want to know how much each room costs to rent. 
