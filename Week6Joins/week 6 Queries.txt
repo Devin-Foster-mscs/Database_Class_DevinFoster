@@ -1,0 +1,30 @@
+SELECT TOP (200) Building.Building_ID, Building.Building_Name, Building.Address_ID
+FROM   Building CROSS JOIN
+             Apartment
+ORDER BY Building.Building_Name
+
+
+
+SELECT TOP (200) Person.Person_ID, Person.First_Name, Person.Last_Name, Person.Middle_Initial, Person.Address_ID, Person.Phone_Number
+FROM   Person CROSS JOIN
+             Address
+ORDER BY Person.Last_Name
+
+
+
+SELECT TOP (200) Address.Street_1
+FROM   Address CROSS JOIN
+             Person
+ORDER BY Address.City
+
+
+
+SELECT TOP (200) Invoice.InvoiceID, Invoice.InvoiceDate, Invoice.DueDate, Invoice.Apartment_ID
+FROM   Invoice CROSS JOIN
+             Receipt
+
+
+SELECT TOP (200) Product.Name, Product.Price, LineItem.Qty
+FROM   Product INNER JOIN
+             LineItem ON Product.Product_ID = LineItem.Product_ID
+WHERE (LineItem.Invoice_ID = 1)
